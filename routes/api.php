@@ -13,4 +13,4 @@ use Illuminate\Http\Request;
 |
 */
 
-Route::get('/people', 'ApiController@getAllPeople');
+Route::get('/people/{id?}', 'ApiController@getPeople');

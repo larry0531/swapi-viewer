@@ -11,5 +11,7 @@
 |
 */
 
-Route::get('/', 'HomeController@list')->name('list');;
+Route::view('/{path?}', 'app');
+
+
 
